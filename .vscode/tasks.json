@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build simulation",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "src/main.cpp",
+                "src/BondingMachine.cpp",
+                "src/HardwareInterface.cpp",
+                "-Iinclude",
+                "-o",
+                "simulation"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build tests",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "tests/test_main.cpp",
+                "tests/test_machine.cpp",
+                "tests/test_integration.cpp",
+                "src/BondingMachine.cpp",
+                "src/HardwareInterface.cpp",
+                "-Iinclude",
+                "-I/path/to/googletest/include",
+                "-L/path/to/googletest/lib",
+                "-lgtest",
+                "-lgtest_main",
+                "-pthread",
+                "-o",
+                "tests/test_suite"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
