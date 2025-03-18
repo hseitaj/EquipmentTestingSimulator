@@ -40,6 +40,9 @@ This project simulates semiconductor manufacturing equipment for testing purpose
 
 ## Additional Documentation
 
-- **Design Overview:** See `docs/design_overview.md` for detailed design concepts.
-- **Test Plan:** See `docs/test_plan.md` for testing objectives and scenarios.
-- **Defect Tracking:** See `docs/defect_tracking.md` for guidelines on logging and prioritizing defects.
+- **Design Overview:** 
+  - See `docs/design_overview.md` for detailed design concepts.
+- **Test Plan:**
+  - See `docs/test_plan.md` for testing objectives and scenarios.
+- **Defect Tracking:**
+  - See `docs/defect_tracking.md` for guidelines on logging and prioritizing defects.
