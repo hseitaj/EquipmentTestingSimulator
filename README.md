@@ -1,4 +1,4 @@
-# Semiconductor Equipment Testing Simulator
+# Equipment Testing Simulator
 
 This project simulates semiconductor manufacturing equipment for testing purposes. It includes:
 - Simulation of machine control and hardware interface.
@@ -16,7 +16,7 @@ This project simulates semiconductor manufacturing equipment for testing purpose
    - Clone this repository to your local machine.
 
 3. **Open the Project in Your IDE:**
-   - Open the project folder (`SemiconductorEquipmentTestingSimulator`) in your chosen IDE.
+   - Open the project folder (`EquipmentTestingSimulator`) in your chosen IDE.
 
 4. **Build and Run the Simulation:**
    - Follow the provided build instructions (e.g., using the command line or IDE build configurations) to compile the simulation.
